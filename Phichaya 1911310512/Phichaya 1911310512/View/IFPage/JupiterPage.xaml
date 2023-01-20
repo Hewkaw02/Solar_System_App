@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.IFPage.JupiterPage">
+    <ScrollView>
+        <StackLayout Margin="24">
+            <Image Source="jupiter"/>
+            <Label Text="Jupiter is the fifth planet from the Sun and the largest planet in the Solar System. It is a gas giant with a radius of about 11 times that of Earth. Jupiter has a strong internal heat source and its upper atmosphere is composed primarily of hydrogen and helium, with small amounts of other gases such as methane and ammonia." />
+            <Label Text="Jupiter has 79 known moons, the four largest are known as the Galilean moons and were first observed by the astronomer Galileo Galilei in 1610. They are Io, Europa, Ganymede, and Callisto. Ganymede is the largest moon in the Solar System, even larger than the planet Mercury." />
+            <Label Text="Jupiter has a strong magnetic field that is fourteen times stronger than Earth's and is heavily influenced by the planet's rapid rotation. The magnetic field generates intense radiation belts and a gigantic circular structure in the atmosphere known as the Great Red Spot." />
+            <Label Text="Jupiter has a distinctive orange-brown stripey appearance, caused by bands of clouds in its upper atmosphere. These bands are created by strong east-west winds, with wind speeds reaching up to 620 miles per hour." />
+            <Label Text="Jupiter has been known since ancient times and is named after the king of the Roman gods. It was first studied in detail in 1610 by the astronomer Galileo Galilei, who used a telescope to make the first recordings of Jupiter's four largest moons. NASA's Juno spacecraft is currently in orbit around Jupiter, studying the planet's atmosphere, magnetic field, and the structure of its interior." />
+            <Button x:Name="MClose" Text="Close"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

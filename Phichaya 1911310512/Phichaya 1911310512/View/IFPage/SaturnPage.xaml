@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.IFPage.SaturnPage">
+    <ScrollView>
+        <StackLayout  Margin="24">
+            <Image Source="Saturn"/>
+            <Label Text="Saturn is the sixth planet from the Sun and the second largest planet in the Solar System. It is a gas giant with an average radius of about 9.5 times that of Earth. Saturn has a distinctive ring system that is composed of ice particles and is visible from Earth with a small telescope. The planet has at least 82 moons, including the largest moon in the Solar System, Titan. The atmosphere of Saturn is composed primarily of hydrogen and helium, and it is known for its strong winds and storms. The planet's interior is thought to be primarily composed of a rocky core surrounded by a layer of liquid metallic hydrogen."/>
+            <Label Text="Saturn has a unique and complex ring system, consisting of thousands of individual rings made of ice particles, ranging in size from tiny grains to chunks several meters in diameter. The most well-known of these are the broad B ring and the narrow F ring, which are located near the outer edge of the main ring system. The rings are thought to be debris from shattered comets, asteroids or shattered moons."/>
+            <Label Text="Saturn is the least dense of all the planets in the Solar System, it could float on water if there was a bathtub big enough. The planet rotates quickly on its axis, completing one rotation in about 10.7 Earth hours, which is the second shortest day of any of the Solar System's planets."/>
+            <Label Text="Saturn's atmosphere is notable for its bright, banded appearance and for the huge storms that occur within it, including the Great White Spot, which is a gigantic storm that is visible from Earth. The atmosphere also contains methane and ammonia, which gives it a pale yellow color."/>
+            <Label Text="Saturn has been known since ancient times and is named after the Roman god of agriculture and wealth. It was first observed in 1610 by the astronomer Galileo Galilei and was first studied in detail by the astronomer Christiaan Huygens in 1659. The planet was also studied in detail during the flybys of NASA's Voyager and Cassini spacecraft."/>
+
+            <Button x:Name="MClose" Text="Close"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

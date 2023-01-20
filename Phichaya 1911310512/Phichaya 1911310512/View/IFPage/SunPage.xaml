@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.IFPage.SunPage">
+    <ScrollView>
+        <StackLayout Margin="24">
+            <Image Source="sun"/>
+            <Label Text="The Sun is a star located at the center of the Solar System. It is a nearly perfect spherical ball of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. The sun is primarily composed of hydrogen and helium and is intermediate in size among the stars in the Milky Way galaxy.
+It's about 4.6 billion years old, It's expected to have a total lifespan of about 10 billion years."/>
+            <Label Text="The Sun is the source of light and heat for the Solar System, and it plays a critical role in maintaining the conditions necessary for life on Earth. The Sun's energy is produced through nuclear fusion in its core, where hydrogen atoms are fused together to form helium. This process releases a tremendous amount of energy in the form of light and heat."/>
+            <Label Text="The Sun's surface, or photosphere, has an average temperature of about 5,500 °C (9,930 °F) and is covered in dark spots known as sunspots. These spots are cooler and less active regions on the surface of the sun and are caused by intense magnetic fields. The Sun's atmosphere is also active and filled with features such as prominences, which are large loops of gas that extend out from the surface, and coronal mass ejections, which are powerful eruptions of solar material."/>
+            <Label Text="The Sun's intense radiation and particle output, known as the solar wind, can have effects on the Earth, including auroras and can disrupt communications systems. The sun also goes through an 11 year solar activity cycle, which is a period of time where the number of sunspots and solar flares increases and decreases."/>
+            <Label Text="Studying the Sun and its effects on the Solar System is important for understanding the behavior of stars and for predicting and mitigating the potential effects of solar activity on Earth. NASA and other space agencies have several ongoing and planned missions to study the Sun and its effects on the Solar System."/>
+            <Button x:Name="MClose" Text="Close"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

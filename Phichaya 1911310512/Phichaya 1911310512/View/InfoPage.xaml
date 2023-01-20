@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.InfoPage"
+             Title="InfoPage"
+             IconImageSource="infopic">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#4a4a4a">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Frame Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent">
+                    <ImageButton Source="sun" x:Name="sun" BackgroundColor="Transparent"/>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent">
+                    <ImageButton Source="moon" x:Name="merculy" BackgroundColor="Transparent"/>
+                </Frame>
+                <Frame Grid.Column="0" Grid.Row="1" BackgroundColor="Transparent">
+                    <ImageButton Source="venus" x:Name="venus" BackgroundColor="Transparent"/>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="1" BackgroundColor="Transparent">
+                    <ImageButton Source="earth" x:Name="earth" BackgroundColor="Transparent"/>
+                </Frame>
+                <Frame Grid.Column="0" Grid.Row="2" BackgroundColor="Transparent">
+                    <ImageButton Source="mars"  x:Name="mars" BackgroundColor="Transparent"/>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="2" BackgroundColor="Transparent">
+                    <ImageButton Source="jupiter"  x:Name="jupiter" BackgroundColor="Transparent"/>
+                </Frame>
+                <Frame Grid.Column="0" Grid.Row="3" BackgroundColor="Transparent">
+                    <ImageButton Source="Saturn"  x:Name="saturn" BackgroundColor="Transparent"/>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="3" BackgroundColor="Transparent">
+                    <ImageButton Source="uranus" x:Name="uranus" BackgroundColor="Transparent"/>
+                </Frame>
+                <Frame Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" BackgroundColor="Transparent">
+                    <ImageButton Source="neptune"  x:Name="neptune" BackgroundColor="Transparent"/>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

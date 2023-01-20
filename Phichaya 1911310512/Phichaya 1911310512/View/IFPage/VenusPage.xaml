@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.IFPage.VenusPage">
+    <ScrollView>
+        <StackLayout Margin="24">
+            <Image Source="venus"/>
+
+            <Label Text="Venus is the second planet from the Sun and the closest planet to Earth. It is a terrestrial planet, meaning it is primarily composed of rock and metal. Venus has a thick atmosphere which is primarily composed of carbon dioxide and nitrogen. The thick atmosphere traps heat and causes the surface temperature to reach around 864°F (462°C), making Venus the hottest planet in the Solar System."/>
+            <Label Text="Venus has a diameter of 12,104 km (7,521 mi), which is only 650 km (404 mi) less than that of Earth. Despite its similar size, Venus has a much different surface and atmosphere than Earth. The surface of Venus is covered with volcanoes and plains, but it has no oceans or any sign of current geological activity. Venus's thick atmosphere causes a greenhouse effect, which makes its surface hot and hostile to life as we know it."/>
+            <Label Text="Venus has no moons or rings. Venus's thick atmosphere causes high atmospheric pressure, lack of water, and corrosive clouds. The atmosphere is also responsible for the planet's thick cloud cover, which is primarily composed of sulfuric acid droplets."/>
+            <Label Text="Venus has been known since ancient times and is named after the Roman goddess of love and beauty. It has been studied by multiple spacecraft, including NASA's Mariner and Venera missions, and the European Space Agency's Venus Express orbiter. These missions have provided a great deal of information about Venus's atmosphere, geology, and potential for past or present life."/>
+            <Label Text="The study of Venus is particularly important for understanding the effects of greenhouse gases on a planet's atmosphere, and for understanding how an atmosphere can become thick and hostile to life. And with the help of new technologies and new spacecraft missions, scientists hope to unlock more secrets about Venus and the evolution of the Solar System."/>
+            <Button x:Name="MClose" Text="Close"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

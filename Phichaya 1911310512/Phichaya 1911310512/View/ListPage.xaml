@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.ListPage"
+             Title="Daily Image"
+             IconImageSource="diarypic">
+    <StackLayout>
+        <CollectionView ItemsSource="{Binding PicDetail}" SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout BackgroundColor="#1c1c1c">
+                        <Frame Padding="20" BackgroundColor="White">
+                            <Frame.Content>
+                                <Image Source="{Binding url}" Aspect="AspectFill" />
+                            </Frame.Content>
+                        </Frame>
+                        <StackLayout Margin="40">
+                            <Label Text="{Binding title}" FontFamily="Arial" FontSize="24" FontAttributes="Bold" TextColor="White"/>
+                            <Label Text="{Binding copyright}"  TextColor="White"/>
+                            <Label Text="{Binding date}" TextColor="White"/>
+                            <Label Text="{Binding explanation}" TextColor="White"/>
+                        </StackLayout>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

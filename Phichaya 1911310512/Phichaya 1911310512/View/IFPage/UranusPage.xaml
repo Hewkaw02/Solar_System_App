@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.IFPage.UranusPage">
+    <ScrollView>
+        <StackLayout Margin="24">
+            <Image Source="uranus"/>
+            <Label Text="Uranus is the seventh planet from the Sun and the third largest planet in the Solar System. It is an ice giant, primarily composed of ices such as water, ammonia, and methane. It has a radius of about 4 times that of Earth, and it has a unique rotation axis that is tilted at an angle of about 98 degrees in relation to its orbit around the Sun, causing the planet to appear to be rotating on its side."/>
+            <Label Text="Uranus has 27 known moons, the largest of which are Titania and Oberon. The planet also has 13 known rings, which are narrow and dark in appearance."/>
+            <Label Text="Uranus has a relatively featureless blue-green atmosphere, which is primarily composed of hydrogen and helium, with small amounts of methane. The methane absorbs red light, giving the planet its blue-green color. The atmosphere is divided into several layers, including a methane cloud layer and a hydrogen-helium layer."/>
+            <Label Text="Uranus was first observed in 1781 by the astronomer William Herschel, but it was not studied in detail until the Voyager 2 spacecraft flew by the planet in 1986. The spacecraft revealed information about the planet's atmosphere, moons, and rings."/>
+            <Label Text="Uranus is named after the ancient Greek god of the sky, and its symbol is represented as a combination of the letter 'U' and a symbol that represents a stylized representation of the god. It is known as an 'ice giant' planet, and scientists believe that the interior of the planet is composed of a rocky core surrounded by a layer of water and ammonia ices, and a layer of hydrogen and helium."/>
+            <Button x:Name="MClose" Text="Close"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

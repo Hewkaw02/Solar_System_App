@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.IFPage.MarsPage">
+    <ScrollView>
+        <StackLayout Margin="24">
+            <Image Source="mars"/>
+            <Label Text="Mars is the fourth planet from the Sun and the second closest to Earth. It is often referred to as the 'Red Planet' due to its reddish appearance, caused by iron oxide (rust) on its surface. Mars is a terrestrial planet, meaning it is primarily composed of rock and metal, and it has a thin atmosphere composed mostly of carbon dioxide."/>
+            <Label Text="Mars has a diameter of about 6,779 km (4,212 mi) and its surface features include volcanoes, impact craters, valleys, deserts and polar ice caps. Olympus Mons, the largest volcano in the Solar System, is located on Mars. The Valles Marineris, a canyon system that is over 4,000 km long and up to 7 km deep, is also on Mars."/>
+            <Label Text="Mars has two small natural satellites, Phobos and Deimos."/>
+            <Label Text="The atmosphere of Mars is much colder and much less dense than that of Earth, and it does not have a significant magnetic field to protect the surface from solar wind. These factors make the planet inhospitable for life as we know it. But there have been many missions from NASA and other space agencies, aimed at studying Mars in order to understand whether life ever existed on the planet and to explore it for future human exploration. The NASA's rover Perseverance landed on Mars surface in 2021, it is performing various scientific experiments to explore the planet and cache the soil samples to bring back to Earth in the future."/>
+            <Button x:Name="MClose" Text="Close"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

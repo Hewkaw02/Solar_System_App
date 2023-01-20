@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phichaya_1911310512.View.IFPage.EarthPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Margin="24">
+            <Image Source="earth"/>
+            <Label VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   Text="The solar system is the group of planets and other celestial bodies that orbit around the sun. Earth is the third planet from the sun and is the only known planet to support life."/>
+
+            <Label VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   Text="Earth has a diameter of about 12,742 kilometers and is about 93 million miles away from the sun. It has a rocky surface with mountains, valleys, and plateaus and is covered in water, with about 71% of its surface being covered by oceans. Earth has an atmosphere composed mostly of nitrogen and oxygen, with small amounts of other gases."/>
+
+            <Label VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   Text="Earth has one natural satellite, the Moon, which is about 384,000 kilometers away from Earth. The Moon's gravity causes the tides in Earth's oceans and also helps to stabilize Earth's axis of rotation."/>
+
+            <Label VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   Text="Earth has a rotation period of about 24 hours, which is why we have day and night. It takes 365.24 days for Earth to orbit around the sun, which is why we have a leap year every four years. Earth's axial tilt is about 23.5 degrees, which causes the seasons and weather patterns."/>
+
+            <Label VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   Text="Earth also has a magnetic field, which helps to protect the planet from harmful solar radiation and particles. The Earth's magnetic field causes the aurora (northern and southern lights) near the poles."/>
+
+            <Label VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"  
+                   Text="Earth is the only planet known to support life, with a diverse array of living organisms from microorganisms to humans. The study of Earth is known as Earth Science or geology."/>
+
+                <Button x:Name="MClose" Text="Close"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
